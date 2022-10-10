@@ -1,0 +1,235 @@
+/* structure 
+layout 
+content 
+Assets 
+responsivty 
+Cross
+browser
+compat */
+
+/* 
+    Introduction Page
+*/
+
+body {
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* background-color: red; */
+    /* overflow: hidden; */
+    /* text-align: center; */
+  }
+  .Wrapper {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    /* background-color: gray; */
+  }
+  
+  .Header {
+    width: 100%;
+    /* background-color: white; */
+    height: 160px;
+  }
+  .Banner {
+    width: 100%;
+  }
+  .twoColumnstextBlock {
+    /* width: 100%; */
+    height: 650px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .textBlocksContentOverview {
+    /* width: 100%; */
+    width: 80%;
+    height: 260px;
+    background-color: white;
+    /* margin: 3% auto; */
+    margin: auto;
+    padding: 10px;
+  }
+  .LineBreak {
+    width: 100%;
+    height: 5px;
+    color: #00243a;
+    background-color: #00243a;
+  }
+  .Faculty {
+    text-align: center;
+  }
+  .FacultyDiv {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    background-color: lightgray;
+    width: 100%;
+    height: 300px;
+  }
+  .FacultyImage {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+  }
+  .Footer {
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: auto 40%;
+    text-align: center;
+  }
+  .contactUs {
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    margin: auto auto auto 100px;
+  }
+  .Logo2 {
+    margin: auto;
+    width: 70%;
+    height: 200px;
+    background-color: white;
+  }
+  .imageGallery {
+  }
+  
+  .videos {
+  }
+  
+  .logo {
+  }
+  /* 
+      interactive or functionality
+  */
+  
+  /* 
+      responsivity
+  */
+  
+  /* 
+  Mobile responsiveness
+  */
+  
+  @media only screen and (max-width: 1025px) {
+    .Wrapper {
+      width: 100%;
+      height: auto;
+      /* background-color: gray; */
+    }
+  
+    .Header {
+      width: 100%;
+      /* background-color: white; */
+      height: 160px;
+    }
+    .twoColumnstextBlock {
+      width: 100%;
+      height: auto;
+      grid-template-columns: auto;
+    }
+    .textBlocksContentOverview {
+      width: 80%;
+      margin: 2% auto;
+    }
+    .textBlocksContentOverview:nth-child(4) {
+      margin-bottom: 2%;
+      /* padding: 10px; */
+    }
+    .FacultyDiv {
+      column-gap: 1px;
+      grid-template-columns: auto auto;
+      width: 100%;
+      height: auto;
+    }
+    .FacultyImage {
+      width: 170px;
+      height: 150px;
+      margin: 10px auto;
+    }
+    .Footer {
+      width: 100%;
+      height: auto;
+      grid-template-columns: auto;
+    }
+    .contactUs {
+      width: 90%;
+      height: 200px;
+      margin: 2% auto;
+    }
+    .Logo2 {
+      margin: 2% auto;
+      width: 90%;
+      height: 200px;
+    }
+  }
+  
+  /* 
+    Home Page
+  */
+  
+  .TextBox {
+    width: 90%;
+    height: 200px;
+    border: 2px solid;
+    margin: 1% auto;
+    text-align: center;
+  }
+  .NavigationMenu {
+    width: 90%;
+    height: 400px;
+    background-color: gray;
+    margin: 1% auto;
+    text-align: center;
+  }
+  .Tabs {
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    margin: 0% auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid;
+  }
+  
+  .FlipCards {
+    width: 90%;
+    height: 200px;
+    margin: 1% auto;
+    border: 2px solid;
+    text-align: center;
+  }
+  H1 {
+    text-align: center;
+  }
+  .TabsInner {
+    width: 50%;
+    height: 120px;
+    background-color: gray;
+    margin: auto;
+  }
+  
+  /* 
+  Home Page Mobile
+  */
+  
+  @media only screen and (max-width: 1025px) {
+    .Tabs {
+      width: 90%;
+      height: 150px;
+      background-color: white;
+      margin: 0% auto;
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      border: 2px solid;
+    }
+    .TabsInner {
+      width: 60%;
+      height: 100px;
+      background-color: gray;
+      margin: auto;
+    }
+  }
