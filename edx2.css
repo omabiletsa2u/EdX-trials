@@ -1,0 +1,26 @@
+h1{
+    color:black;
+
+}
+
+h2{
+    color:black;
+
+}
+
+h3{
+    box-sizing: border-box;
+    color:black;
+    font-size: 26px;
+    font-weight: 500; 
+    line-height: 32px;
+    margin-bottom: 25px;
+    
+
+}
+
+.book-text{
+    box-sizing: border-box; 
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 23px;
+}
