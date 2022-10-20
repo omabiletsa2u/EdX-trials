@@ -25,15 +25,15 @@ p{
 }
 blockquote{
     font-size: 20px;
-    width:60%;
+    width:80%;
     margin:50px auto;
-    font-style:italic;
+    
     color: #555555;
     padding:1.2em 30px 1.2em 75px;
     border-left:8px solid #020f53ef ;
     line-height:26px;
     position: relative;
-    background:#EDEDED;
+    /* background:#EDEDED; */
   }
   
   
@@ -56,15 +56,27 @@ blockquote{
 }
 
 .LO-solid-border{
- border: 2px solid ;
-    
-  border-radius: 5px;
-  color: blueviolet;
+ border: 5px solid ;    
+  border-radius: 0px;
+  color:   #1475d4;
+  padding: 25 px;
 }
 .LO-list{
     list-style-type: none;
 
 }
+.GR-solid-border{
+    border: 5px solid ;    
+     border-radius: 0px;
+     color:   #012040;
+     padding: 25 px;
+   }
+   .EF-solid-border{
+    border: 5px solid ;    
+     border-radius: 0px;
+     color:   #123e6a;
+     padding: 25 px;
+   }
 .video-caption{
     box-sizing: border-box;
     font-size: 17px;
@@ -74,4 +86,9 @@ blockquote{
     font-style: italic; 
  
 }
-
+.explore-further{
+    border: 5px solid ;    
+  border-radius: 0px;
+  border-color:   #1475d4;
+  padding: 25 px; 
+}
